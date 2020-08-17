@@ -1,0 +1,16 @@
+  "Section divider for code": {
+    "prefix": "//",
+    "body": ["//==================================================", "$1"],
+    "description": "Divider line to demarcate related but separate code blocks"
+  },
+  "Banner divider for code": {
+    "prefix": "//b",
+    "body": [
+      "//==================================================",
+      "// $1",
+      "//==================================================",
+      "$2"
+    ],
+    "description": "Partition code blocks into sections with headers"
+  }
+}
