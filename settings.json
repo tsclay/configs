@@ -1,0 +1,65 @@
+{
+  "editor.suggestSelection": "first",
+  "workbench.colorTheme": "dcode",
+  "editor.wordWrapColumn": 80,
+  "javascript.format.enable": false,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": false,
+  "json.format.enable": false,
+  "eslint.format.enable": true,
+  "eslint.debug": true,
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.minimap.maxColumn": 80,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "html.format.indentInnerHtml": true,
+  "editor.detectIndentation": false,
+  "editor.wrappingIndent": "indent",
+  "editor.wordWrap": "bounded",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.tabCompletion": "off",
+  "editor.suggest.localityBonus": true,
+  "editor.snippetSuggestions": "inline",
+  "workbench.iconTheme": "vscode-icons",
+  "window.nativeFullScreen": false,
+  "editor.suggest.maxVisibleSuggestions": 6,
+  "liveServer.settings.donotVerifyTags": true,
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "workbench.startupEditor": "welcomePage",
+  "editor.renameOnType": true,
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontFamily": "Anonymous Pro",
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "diffEditor.ignoreTrimWhitespace": false
+}
