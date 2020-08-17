@@ -1,4 +1,5 @@
- "For Loop": {
+{
+  "For Loop": {
     "prefix": "for",
     "body": [
       "for (let ${1|i,j,index|} = 0; ${1|i,j,index|} < ${2:array}.length; ${1|i,j,index|}++) {",
