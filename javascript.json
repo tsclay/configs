@@ -1,0 +1,35 @@
+ "For Loop": {
+    "prefix": "for",
+    "body": [
+      "for (let ${1|i,j,index|} = 0; ${1|i,j,index|} < ${2:array}.length; ${1|i,j,index|}++) {",
+      "\t$3",
+      "}"
+    ],
+    "description": "A for loop using i as the standard counting variable"
+  },
+  "Print to console": {
+    "prefix": "con",
+    "body": ["console.log($1);$2"],
+    "description": "Log output to console"
+  },
+  "Section divider for code": {
+    "prefix": "//",
+    "body": ["//==================================================", "$1"],
+    "description": "Divider line to demarcate related but separate code blocks"
+  },
+  "Banner divider for code": {
+    "prefix": "//b",
+    "body": [
+      "//==================================================",
+      "// $1",
+      "//==================================================",
+      "$2"
+    ],
+    "description": "Partition code blocks into sections with headers"
+  },
+  "Quick arrow function": {
+    "prefix": "af",
+    "body": ["($1) => {", "\t$2", "}"],
+    "description": "Arrow function shortcut found in Atom text editor."
+  }
+}
